@@ -44,3 +44,14 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+## Contextos
+
+Existem basicamente 2 formas de compartilhar estados entre componentes: colocando o estado no componente pai e passando aos filhos e com o contextAPI.
+
+Prop Drilling: Quando é necessário passar props para vários componentes filhos de filhos...
+
+Contextos servem para o compartilhamento de estados entre vários componentes da aplicação independente de onde eles estejam.
+
+Existem 2 formas de utilização: a forma antiga com RenderProps e a forma mais atual com contextapi e o hook useContext
